@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.showPage {
+    background: url(https://images.unsplash.com/photo-1686924878014-06bc9aa4a86d?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.showPage h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+.showPage p {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.btn-1 {
+    background: linear-gradient(to bottom right, #00fff7, #36e788, #50fd00);
+    border: #000;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 20px;
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background: linear-gradient(to bottom right, #5a50e8, #00f5f1, #5a50e8);
+}
+
+#section-1 {
+    text-align: center;
+    padding: 40px;
+}
+
+#section-1 h1 {
+    margin-bottom: 20px;
+}
+
+#section-2 h1,
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.flex-columns {
+    display: flex;
+    padding: 20px;
+}
+
+footer {
+    min-height: 60px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-1 .container img {
+    margin: 50px 80px;
+    border: 5px #51d7b3;
+    border-style: double solid;
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.columns p {
+    display: grid;
+    grid-template-rows: repeat(0, 0fr);
+}
+
+#section-1 img:hover {
+    transform: translateY(-15px);
+    filter: brightness(100%);
+    box-shadow: 5px 7px 20px #94edc8;
+}
+
+#section-2 .container {
+    background: linear-gradient(to bottom left, #000524, #003b68, #004617);
+    margin: 0px 0px;
+    box-sizing: border-box;
+    padding: -15px;
+}
+
+#section-1 .columns p {
+    color: #000;
+}
